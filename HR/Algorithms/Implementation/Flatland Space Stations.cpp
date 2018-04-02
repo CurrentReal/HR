@@ -2,7 +2,14 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
+/*We are  interested in the cities that are in the middle of two  space stations
+    as this city will be furthest for that set of two space stations
 
+            City         : 0,1,2,3,5,6,7,8
+            SpaceStation : .,.,2,.,.,.,7,.
+
+    In the example above, 5 is in the middle of space station 2 and 7 and the distance to
+    the closest one is 2 and can be calculated as (7-2)/2 = 2 */
 int main(){
     int n;
     int m;
